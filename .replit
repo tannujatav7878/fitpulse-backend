@@ -1,0 +1,11 @@
+run = "npm install && node server.js"
+modules = ["nodejs-20"]
+
+[deployment]
+run = ["sh", "-c", "node server.js"]
+build = ["sh", "-c", "npm install"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 3000
+externalPort = 80

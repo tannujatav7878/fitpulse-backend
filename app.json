@@ -1,0 +1,10 @@
+{
+  "name": "FitPulse",
+  "description": "Premium Fitness Tracker - Standalone website",
+  "repository": "https://github.com/yourname/fitpulse",
+  "keywords": ["fitness", "tracker", "node", "express"],
+  "env": {
+    "NODE_ENV": { "value": "production" }
+  },
+  "buildpacks": [{ "url": "heroku/nodejs" }]
+}

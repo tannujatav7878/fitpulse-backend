@@ -1,0 +1,9 @@
+node_modules/
+fitpulse.db
+fitpulse.db-journal
+fitpulse.db-wal
+fitpulse.db-shm
+.env
+.env.local
+*.log
+.DS_Store
